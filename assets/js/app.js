@@ -54,13 +54,9 @@ function addE(el, ev, cb) {
         let id = i.getAttribute('data-action'),
             co = (id !== null) ? document.querySelector(id) : null;
 
-        console.log(id);
-        console.log(co);
-
         if (co !== null) {
 
             addE(i, 'click', e => {
-
                 co.classList.remove('hide');
                 i.classList.add('hide');
             });
