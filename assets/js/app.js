@@ -138,20 +138,21 @@ function req(args) {
 
             if (area !== null) {
                 let coord = area.getBoundingClientRect();
-
                 window.scrollTo(0, coord.y);
             }
         });
     });
 
     /**
-     * Enable smart section expand.
+     * Enable smart section expand/populating.
      */
-    document.querySelectorAll('button[data-action]').forEach(i => {
+    document.querySelectorAll('button[data-action],div.remoteCall[data-section]').forEach(i => {
 
         let id = i.getAttribute('data-action'),
             co = (id !== null) ? document.querySelector(id) : null;
 
+        // Section expanding onClick
+        //
         if (co !== null) {
 
             addE(i, 'click', e => {
@@ -175,6 +176,27 @@ function req(args) {
                 co.classList.remove('hide');
                 i.classList.add('hide');
             });
+        }
+
+        // Section dynamic loading from external Url
+        //
+        else {
+
+            let section = i.getAttribute('data-section'),
+                sectionStatus = i.getAttribute('data-section-status');
+
+            if (section !== null && sectionStatus !== null) {
+
+                let markdownFile = req({
+                    url: `https://raw.githubusercontent.com/iasi-ai/smart-city-iasi/master/${section}/${sectionStatus}.md`,
+                    success: s => {
+                        i.innerHTML = marked(s, {headerIds: false});
+                    },
+                    error: e => {
+
+                    }
+                });
+            }
         }
     });
 
