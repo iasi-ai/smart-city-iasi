@@ -125,7 +125,7 @@ function req(args) {
     /**
      * Enable smooth scrolling.
      */
-    document.querySelectorAll('nav ul li a').forEach(i => {
+    document.querySelectorAll('nav ul.smart-city-verticals li a').forEach(i => {
 
         addE(i, 'click', e => {
 
