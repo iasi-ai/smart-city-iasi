@@ -1,1 +1,6 @@
-În curând
+* [INTERREG EUROPE: IASI "SMART CITY” with European Commission support](https://www.interregeurope.eu/clean/news/news-article/2641/iasi-smart-city-with-european-commission-support/)
+* [DIGITAL CITIES CHALLENGE: Iasi scoops gold award for smart city project](https://www.digitallytransformyourregion.eu/iasi-scoops-gold-award-smart-city-project)
+* [BUSINESS REVIEW: Iasi wins Emerging City of the Year at CEE Outsourcing Awards](http://business-review.eu/news/iasi-wins-emerging-city-of-the-year-at-cee-outsourcing-awards-157161)
+* [MAGNA NEWS: Iași: Orașul lui Chirica face progrese în adoptarea soluţiilor Smart City](https://magnanews.ro/2018/11/iasi-orasul-lui-chirica-face-progrese-in-adoptarea-solutiilor-smart-city/)
+* [ZIARUL DE IASI: Chirica: Smart City este noua direcție fundamentală spre care va merge orașul](https://www.ziaruldeiasi.ro/stiri/chirica-smart-city-este-noua-directie-fundamentala-spre-care-va-merge-orasul--159188.html)
+* [NOCASH: Calatoria cu transportul public se plateste prin e-wallet si la Iasi](https://www.nocash.info.ro/calatoria-cu-transportul-public-se-plateste-prin-e-wallet-si-la-iasi/)
