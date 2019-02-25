@@ -1,1 +1,1 @@
-În curând
+* [26 Februarie 2019, 19:00 - 21:00 - Building a digital product into a business with Răzvan Gavrilaș (FabLab Iași)](https://www.facebook.com/events/396331317785041/)
