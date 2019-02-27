@@ -1,8 +1,3 @@
-<style>
-p.a {
-  margin: 5px 0;
-}
-</style>
 
 <!-- 1 -->
 <table style="width: px; display: inline-block">
@@ -74,7 +69,24 @@ p.a {
 </table>
 
 
+
 <!-- 6 -->
+<table style="width: px; display: inline-block">
+<tbody>
+<tr>
+<td style="width: 450px; align: center;">
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/njzMX4Y/Event-7.jpg" alt="" width="300" height="168" /></p>
+<p style="text-align: center; margin-bottom: -25px;" ><a href="https://web.facebook.com/events/362712801125464/"><b>Erasmus for Young Entrepreneurs Programme - Conference </b></a></p>
+<p style="text-align: center; margin-bottom: -25px;">1 Martie 2019, 17:00 - 19:00</p>
+<p style="text-align: center; margin-bottom: 50px;">FabLab Iași</p>
+</td>
+</tr>
+
+</tbody>
+</table>
+
+
+<!-- 7 -->
 <table style="width: px; display: inline-block">
 <tbody>
 <tr>
