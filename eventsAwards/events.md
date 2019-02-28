@@ -33,6 +33,19 @@
 <tbody>
 <tr>
 <td style="width: 450px; align: center;">
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/RQZbxqs/Event-8.jpg" alt="" width="300" height="168" /></p>
+<p style="text-align: center; margin-bottom: -25px;" ><a href="https://web.facebook.com/events/2205261076395657/"><b>Alexandra Andriescu on “Symmetry” - CreativeMornings Iasi </b></a></p>
+<p style="text-align: center; margin-bottom: -25px;">28 Februarie 2019, 08:00 - 09:00</p>
+<p style="text-align: center; margin-bottom: 50px;">Time Out, Strada Carol I nr.4</p>
+</td>
+</tr>
+
+
+<!-- 4 -->
+<table style="width: px; display: inline-block">
+<tbody>
+<tr>
+<td style="width: 450px; align: center;">
 <p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/gZ3PFkd/Event-3.jpg" alt="" width="300" height="168" /></p>
 <p style="text-align: center; margin-bottom: -25px;" ><a href="https://web.facebook.com/events/292317728123908/"><b>Rock your first interview! </b></a></p>
 <p style="text-align: center; margin-bottom: -25px;">28 Februarie 2019, 18:00 - 20:00</p>
@@ -40,7 +53,7 @@
 </td>
 </tr>
 
-<!-- 4 -->
+<!-- 5 -->
 <table style="width: px; display: inline-block">
 <tbody>
 <tr>
@@ -53,7 +66,7 @@
 </tr>
 
 
-<!-- 5 -->
+<!-- 6 -->
 <table style="width: px; display: inline-block">
 <tbody>
 <tr>
@@ -70,7 +83,7 @@
 
 
 
-<!-- 6 -->
+<!-- 7 -->
 <table style="width: px; display: inline-block">
 <tbody>
 <tr>
@@ -86,7 +99,7 @@
 </table>
 
 
-<!-- 7 -->
+<!-- 8 -->
 <table style="width: px; display: inline-block">
 <tbody>
 <tr>
