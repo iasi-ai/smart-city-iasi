@@ -227,7 +227,7 @@ class IasiSmartCityApp {
                                 sectionStatus = m.getAttribute('data-section-status');
 
                             if (section !== null && sectionStatus !== null) {
-                                let markdownFile = IasiSmartCityApp.httpRequest({
+                                const markdownFile = IasiSmartCityApp.httpRequest({
                                     url: `https://raw.githubusercontent.com/iasi-ai/smart-city-iasi/master/${section}/${sectionStatus}.md`,
                                     success: s => {
                                         m.innerHTML = marked(s, {headerIds: false});
@@ -243,14 +243,14 @@ class IasiSmartCityApp {
 
                 else {
 
-                    let section = i.getAttribute('data-section'),
-                        sectionStatus = i.getAttribute('data-section-status');
+                    let section = button.getAttribute('data-section'),
+                        sectionStatus = button.getAttribute('data-section-status');
 
                     if (section !== null && sectionStatus !== null) {
-                        let markdownFile = req({
+                        const markdownFile = IasiSmartCityApp.httpRequest({
                             url: `https://raw.githubusercontent.com/iasi-ai/smart-city-iasi/master/${section}/${sectionStatus}.md`,
                             success: s => {
-                                m.innerHTML = marked(s, {headerIds: false});
+                                button.innerHTML = marked(s, {headerIds: false});
                             }
                         });
                     }
@@ -317,7 +317,7 @@ class IasiSmartCityApp {
             // Fetch events
             //
             IasiSmartCityApp.httpRequest({
-                url: 'https://iasievents.ro/api/events/',
+                url: 'https://iasievents.ro/api/events/?page=-1',
                 success: response => {
 
                     // Parse response as JSON
@@ -330,7 +330,14 @@ class IasiSmartCityApp {
                     if (json.events !== null && json.events.length > 0) {
                         json.events.forEach(event => {
 
-                            compiled.push(`<article><picture><img src="${event.cover}"/></picture><h3><a href="${event.url}" rel="external noopener" target="_blank">${event.name}</a></h3><span><span class="ic-mr-4" data-icon="p"></span> ${new Date(event.dateStart).toLocaleString("ro-RO", {weekday: 'long',year: 'numeric',month: 'long',day: 'numeric',hour: '2-digit',minute: '2-digit'})}</span><span><span class="ic-mr-4" data-icon="q"></span> ${event.venueName}</span></article>`);
+                            compiled.push(`<article><picture><img src="${event.cover}"/></picture><h3><a href="${event.url}" rel="external noopener" target="_blank">${event.name}</a></h3><span><span class="ic-mr-4" data-icon="p"></span> ${new Date(event.dateStart).toLocaleString("ro-RO", {
+                                weekday: 'long',
+                                year: 'numeric',
+                                month: 'long',
+                                day: 'numeric',
+                                hour: '2-digit',
+                                minute: '2-digit'
+                            })}</span><span><span class="ic-mr-4" data-icon="q"></span> ${event.venueName}</span></article>`);
                         });
                     }
 
