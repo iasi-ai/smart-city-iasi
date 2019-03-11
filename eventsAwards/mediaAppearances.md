@@ -4,3 +4,4 @@
 * [MAGNA NEWS: Iași: Orașul lui Chirica face progrese în adoptarea soluţiilor Smart City](https://magnanews.ro/2018/11/iasi-orasul-lui-chirica-face-progrese-in-adoptarea-solutiilor-smart-city/)
 * [ZIARUL DE IASI: Chirica: Smart City este noua direcție fundamentală spre care va merge orașul](https://www.ziaruldeiasi.ro/stiri/chirica-smart-city-este-noua-directie-fundamentala-spre-care-va-merge-orasul--159188.html)
 * [NOCASH: Calatoria cu transportul public se plateste prin e-wallet si la Iasi](https://www.nocash.info.ro/calatoria-cu-transportul-public-se-plateste-prin-e-wallet-si-la-iasi/)
+* [DIGITAL CITY CHALLENGE: Iași partners with Orange to provide free Wi-Fi on busses and trams] (https://www.digitallytransformyourregion.eu/iasi-partners-orange-provide-free-wi-fi-busses-and-trams)
