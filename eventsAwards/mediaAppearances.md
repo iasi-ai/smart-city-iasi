@@ -6,3 +6,4 @@
 * [NOCASH: Calatoria cu transportul public se plateste prin e-wallet si la Iasi](https://www.nocash.info.ro/calatoria-cu-transportul-public-se-plateste-prin-e-wallet-si-la-iasi/)
 * [DIGITAL CITY CHALLENGE: Iași partners with Orange to provide free Wi-Fi on busses and trams](https://www.digitallytransformyourregion.eu/iasi-partners-orange-provide-free-wi-fi-busses-and-trams)
 * [ZIARUL DE IASI: Municipiul Iaşi a devenit membru al reţelei Open and Agile Smart Cities](https://www.ziaruldeiasi.ro/stiri/municipiul-iasi-a-devenit-membru-al-retelei-open-and-agile-smart-cities--215029.html)
+* [DIGITAL CITIES CHALLENGE: Iaşi presents Digital Transformation Strategy at City Hall](https://www.digitallytransformyourregion.eu/iasi-presents-digital-transformation-strategy-city-hall)
