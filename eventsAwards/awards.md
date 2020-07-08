@@ -5,3 +5,4 @@
 * Diploma de argint la categoria "Politici si strategii pentru comunitati sustenabile inteligente", pentru proiectul „Un oras al oamenilor pentru oameni” - 2018
 * Smart Economy - pentru proiectul "Dezvoltare sustenabilă pe toate verticalele Smart City" - 2018
 * Locul al doilea în topul comunităţilor de tehnologie cu cea mai rapidă creştere - 111% în anul 2019, faţă de 2018 (sursa: Atomico)
+* Locul al doilea în Europa ca rată de creştere a numărului membrilor activi în meetup-uri de tehnologie (90% în 2019, faţă de 2018) - sursa: Atomico
