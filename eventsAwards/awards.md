@@ -14,3 +14,4 @@
 * Capitala Tineretului din România - 2019 - 2020
 * Locul al doilea în Europa în ceea ce privește costul investițiilor și eficiența lor - 2020 (sursa:fDI)
 * Intelligent Cities Challenge, Comisia Europeana - 2020
+* Ambasador Smart City, obtinut la Smart City Industry Awards - 2020
