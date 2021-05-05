@@ -15,4 +15,4 @@
 * Locul al doilea în Europa în ceea ce privește costul investițiilor și eficiența lor - 2020 (sursa:fDI)
 * Intelligent Cities Challenge, Comisia Europeana - 2020
 * Ambasador Smart City, obtinut la Smart City Industry Awards - 2020
-* Primul municipiu din România certificat în conformitate cu sistemul European Energy Award, lansat prima dată în Elveția sub numele de Energiestadt. - 12 aprilie 2021
+* Comunitate sustenabilă. Primul municipiu din România certificat în conformitate cu sistemul European Energy Award, lansat prima dată în Elveția sub numele de Energiestadt. - 12 aprilie 2021
