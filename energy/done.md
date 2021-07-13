@@ -3,11 +3,11 @@
 * Plata taxelor on-line (e-Tax și Ghișeul.ro)
 * Platforma primăria-iași.ro, care asigură transparența decizională prin publicarea tuturor actelor administrative, de interes public, achizițiilor, dezbateri publice, proiecte de HCL etc.
 * Serviciile on-line:
-	o Primăria Digitală, pentru primirea si procesarea solicitărilor online de cetățeni: 83 de tipuri de documente ce pot fi depuse online, pentru DFL, DEP, DTDISC, Direcția de Arhitectura si Urbanism, DGEFPL
-	o Eliberarea documentelor de urbanism
-	o Sesizarea mașinilor abandonate sau fără stăpân
-	o Programarea on-line a înstrăinării / achiziției de vehicule; evidența persoanelor; căsătorii
-	o Platforma e-Guvernare pe care suntem prezenți
+   * Primăria Digitală, pentru primirea si procesarea solicitărilor online de cetățeni: 83 de tipuri de documente ce pot fi depuse online, pentru DFL, DEP, DTDISC, Direcția de Arhitectura si Urbanism, DGEFPL
+   * Eliberarea documentelor de urbanism
+   * Sesizarea mașinilor abandonate sau fără stăpân
+   * Programarea on-line a înstrăinării / achiziției de vehicule; evidența persoanelor; căsătorii
+   * Platforma e-Guvernare pe care suntem prezenți
 * Sesizează o problemă
 * Verificare stadiu cerere
 * Iași City Report
