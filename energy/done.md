@@ -1,6 +1,6 @@
 ##### Situatia actuală
 
-* Plata taxelor on-line ([e-Tax][1] și Ghișeul.ro)
+* Plata taxelor on-line (**[e-Tax][1]** și Ghișeul.ro)
 * Platforma primăria-iași.ro, care asigură transparența decizională prin publicarea tuturor actelor administrative, de interes public, achizițiilor, dezbateri publice, proiecte de HCL etc.
 * Serviciile on-line:
    * Primăria Digitală, pentru primirea si procesarea solicitărilor online de cetățeni: 83 de tipuri de documente ce pot fi depuse online, pentru DFL, DEP, DTDISC, Direcția de Arhitectura si Urbanism, DGEFPL
