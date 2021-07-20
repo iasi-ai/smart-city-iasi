@@ -10,14 +10,17 @@
    * **[Programare on-line evidența persoanelor][8]**
    * **[Programare on-line căsătorii][9]**
    * **[Programare on-line transcrieri][10]**
-   * Platforma e-Guvernare pe care suntem prezenți
-* Sesizează o problemă
-* Verificare stadiu cerere
-* Iași City Report
+   * Platforma **[e-Guvernare][11]** pe care suntem prezenți
+* **[Sesizează o problemă][12]**
+* **[Verificare stadiu cerere][13]**
+* **[Iași City Report][14]**
 * Managementul digital al documentelor
-* Open Data (iasi.digital)
+* **[Open Data][15]**
 * Ședințe de Consiliu Local on-line
-* Transmiterea live a ședințelor de Consiliu Local (youtube + facebook)
+* Transmiterea live a ședințelor de Consiliu Local (**[youtube][19]** + **[facebook][16]**)
+* Cont de facebook **[Primaria Municipiului Iasi][16]**
+* Cont de facebook **[Primarul Municipiului Iasi][17]**
+* Cont de facebook **[Iasi Smart City][18]**
 * Sistem Electronic de Dirijare si Ordonare S.E.D.O. - Sistem introdus la plata taxelor și impozitelor persoane fizice pentru eliberarea biletelor de ordine și repartizarea persoanelor la ghișee.
 * Sistem de eliberare a formularelor - Sistem introdus la plata taxelor și impozitelor persoane fizice pentru eliberarea formularelor specifice fiecărui serviciu. Persoana interesată selectează de pe un ecran formularul necesar iar acesta este tipărit pe loc.
 
@@ -34,3 +37,12 @@ Suntem în etapa a doua a implementării conceptului „Primărie fără hârtie
 [8]: https://www.dlep-iasi.ro/programare-carte-identitate.html
 [9]: https://www.dlep-iasi.ro/programare-casatorie.html
 [10]: https://www.dlep-iasi.ro/programare-transcrieri.html
+[11]: https://www.e-guvernare.ro/
+[12]: http://www.primaria-iasi.ro/portal-iasi/sesizeaza-o-problema/
+[13]: http://www.primaria-iasi.ro/portal-iasi/pmi/transparenta-decizionala/92/verificare-stadiu-cerere
+[14]: https://play.google.com/store/apps/details?id=ro.iasi&hl=ro&gl=US
+[15]: https://iasi.digital/
+[16]: https://www.facebook.com/PrimariaMunicipiuluiIasi
+[17]: https://www.facebook.com/Mihai.Chirica.Iasi
+[18]: https://www.facebook.com/SmartCityIasi
+[19]: https://www.youtube.com/channel/UCV45A8PUkfJt4C3wIoQvW0w
