@@ -10,7 +10,6 @@ Ultimele 3 sunt proiecte cuprinse în Portofoliul de Proiecte al Strategiei de S
 
 [1]: http://www.tehnopol-is.ro/
 
-Ei da
 
 <!---
 * Zone cu free wi-fi
