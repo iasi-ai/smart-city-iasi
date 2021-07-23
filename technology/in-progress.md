@@ -1,5 +1,6 @@
 ##### Ce s-ar mai putea implementa
 
+<!--
 * Introducerea realității augmentate în muzee
 * Realizarea unei platforme Open Data cu informații deținute de Municipiul Iași
 * Introducerea de table smart în școli
@@ -10,3 +11,4 @@
 * Sisteme de plăți prin mobil sau contactless
 * Transformarea digitală a tuturor proceselor analogice existente în prezent
 * Introducerea platformelor de management educațional (cataloage online, clase virtuale, corectarea temelor online, rapoarte, statistici, comunicari etc.
+-->
