@@ -11,9 +11,11 @@ Ultimele 3 sunt proiecte cuprinse în Portofoliul de Proiecte al Strategiei de S
 [1]: http://www.tehnopol-is.ro/
 
 
-<!--- * Zone cu free wi-fi
+<!---
+* Zone cu free wi-fi
 * Banca inteligentă
 * Monitorizarea mediului, transmiterea în timp real a informațiilor despre calitatea aerului
-* Introducerea utilizării codurilor QR --->
+* Introducerea utilizării codurilor QR
+-->
 
 
