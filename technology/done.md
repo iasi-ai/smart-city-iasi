@@ -6,7 +6,7 @@
 * Institutul Creierului
 * Cluster-ul Regional Inovativ - Inovtic (suntem membrii fondatori)
 
-Ultimele 3 sunt proiecte cuprinse în Portofoliul de Proiecte al Strategiei de Specializare Inteligentă RIS3 NE
+Ultimele 3 sunt proiecte cuprinse în Portofoliul de Proiecte al Strategiei de Specializare Inteligentă RIS3 NE.
 
 <!---
 * Zone cu free wi-fi
