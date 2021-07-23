@@ -8,9 +8,6 @@
 
 Ultimele 3 sunt proiecte cuprinse în Portofoliul de Proiecte al Strategiei de Specializare Inteligentă RIS3 NE
 
-[1]: http://www.tehnopol-is.ro/
-
-
 <!---
 * Zone cu free wi-fi
 * Banca inteligentă
@@ -19,3 +16,4 @@ Ultimele 3 sunt proiecte cuprinse în Portofoliul de Proiecte al Strategiei de S
 -->
 
 
+[1]: http://www.tehnopol-is.ro/
