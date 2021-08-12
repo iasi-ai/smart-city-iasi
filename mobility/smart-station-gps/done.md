@@ -1,5 +1,6 @@
 ##### Situatia actuală
 
+* Panouri informative în stații pentru afișare a timpului de sosire pentru fiecare mijloc de transport public
 * Ecrane de informare în autobuze despre stația în care te afli și ce stații urmează
 * Sisteme de securitate şi siguranţă, reprezentate de camere video instalate în mijloacele de transport în comun şi în staţii, pentru prevenirea actelor de violenţă, furt sau distrugere
 * Difuzoare pentru informarea audio, despre stația în care te afli și ce stații urmează, a persoanelor cu deficiențe de vedere
