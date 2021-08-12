@@ -1,3 +1,9 @@
 ##### Situatia actuală
 
-* Conform hărții cu stații de încărcare a vehiculelor electrice, în Iași există 15 astfel de stații
+* **[24 stații încărcare vehicule electrice][1]**
+* Politica Municipiului Iași pentru încurajarea utilizării vehiculelor electrice
+   * Scutire la impozitul auto
+   * Locuri de parcare rezervate, gratuite și special marcate
+
+
+[1]: https://www.plugshare.com/ro
