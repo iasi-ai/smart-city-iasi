@@ -5,4 +5,8 @@
 * Sistem de e-Ticketing
 * Sistem electronic de plată a biletelor / abonamentelor – 24 pay
 * plata online a biletelor și abonamentelor prin conturi digitale individuale de student direct pe platforma CTP Iași
-* **[Free wi-fi pe fiecare mijloc de transport în comun](https://www.sctpiasi.ro/informatii/wi-fi)**
+* **[Free wi-fi pe fiecare mijloc de transport în comun][1]**
+
+
+[1]: https://www.sctpiasi.ro/informatii/wi-fi
+
