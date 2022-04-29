@@ -16,3 +16,5 @@
 * Intelligent Cities Challenge, Comisia Europeana - 2020
 * Ambasador Smart City, obtinut la Smart City Industry Awards - 2020
 * Comunitate sustenabilă. Primul municipiu din România certificat în conformitate cu sistemul European Energy Award, lansat prima dată în Elveția sub numele de Energiestadt. - 12 aprilie 2021
+* Smart Governance - pentru proiectul: Smart City IS ON (Smart City Iași cONcept) – 31 martie 2022
+* Destinația anului 2022 - etapa regională la categoria „City Break” - 28 aprilie 2022
