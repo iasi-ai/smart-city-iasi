@@ -1,0 +1,80 @@
+/*
+ * Smart City Iași
+ *
+ * Smart City Iași presentation website developed by IAȘI AI community
+ * in collaboration with Iași City Hall.
+ *
+ * @author IAȘI AI <hello@iasi.ai>
+ * @copyright © All rights reserved
+ */
+
+// Button structure mixin
+//
+.define-button (@textColor, @backgroundColor, @backgroundColorHover) {
+  color: @textColor;
+  background-color: @backgroundColor;
+  text-decoration: none;
+
+  &:hover {
+    color: @textColor;
+    background-color: @backgroundColorHover;
+    text-decoration: none;
+  }
+}
+
+// Default button
+//
+.btn {
+
+  display: inline-block;
+
+  border-radius: .15em;
+  font-size: 1em;
+
+  margin-bottom: 0;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+
+  padding: 6px 20px;
+  border: 1px solid transparent;
+  transition: background-color .1s;
+
+  // Apply styling
+  //
+  .define-button(@button-default-text-color, @button-default-background-color, @button-default-background-color-hover);
+
+  // Focus/Active states
+  //
+  &:focus, &:active {
+    box-shadow: none;
+    outline: none;
+  }
+
+  // Small button
+  //
+  &.btn-sm {
+    font-size: .9em;
+    padding: 3px 6px;
+    line-height: 1.4;
+  }
+
+  // Centered button
+  //
+  &.btn-centered {
+    display: table;
+    margin: auto;
+  }
+}

@@ -1,0 +1,692 @@
+/*
+ * Smart City Iași
+ *
+ * Smart City Iași presentation website developed by IAȘI AI community
+ * in collaboration with Iași City Hall.
+ *
+ * @author IAȘI AI <hello@iasi.ai>
+ * @copyright © All rights reserved
+ */
+
+// Default page structure
+//
+.page {
+
+  background: #ffffff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6' height='6' viewBox='0 0 6 6'%3E%3Cpath fill='%23e1e1e1' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+
+  // Increase container padding for iPhone X landscape
+  //
+  .container {
+
+    // iPhone X left/right padding when in landscape
+    //
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+      padding-left: env(safe-area-inset-left);
+      padding-right: env(safe-area-inset-right);
+    }
+  }
+
+  // Header
+  //
+  header {
+
+    position: relative;
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('@{S3}app.cover/iasi-palas-sm.jpg') center;
+    background-size: cover;
+
+    border-bottom: @header-border-width solid @header-border-color;
+
+    padding: 50px 0;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('@{S3}app.cover/iasi-palas.jpg') center;
+      background-size: cover;
+
+      text-align: left;
+    }
+
+    @media (min-width: 1200px) {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url('@{S3}app.cover/iasi-palas-lg.jpg') center;
+      background-size: cover;
+    }
+
+    // Heading
+    //
+    h1 {
+      display: inline-block;
+
+      font-size: 3.4rem;
+      color: @text-color-white;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
+
+      margin: 30px 0;
+
+      @media (min-width: 768px) {
+        font-size: 3.8rem;
+        margin: 0 0 20px;
+      }
+
+      a {
+        color: @text-color-white;
+      }
+    }
+
+    // Paragraph
+    //
+    p {
+      font-size: 1.15rem;
+      color: @text-color-white;
+      line-height: 1.6rem;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
+      padding: 0 0 1.5rem;
+
+      &:nth-last-child(2) {
+        padding: 0 0 2rem;
+
+        @media (min-width: 768px) {
+          padding: 0 0 3rem;
+        }
+
+        @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+          padding: 0 0 2rem;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .gr10;
+      }
+
+      @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+        .gr12;
+      }
+    }
+
+    // Smart City categories
+    //
+    nav {
+
+      ul {
+        @media (min-width: 768px) {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          //justify-content: space-between;
+        }
+
+        // Header navigation
+        //
+        &.header-navigation {
+
+          position: absolute;
+          display: flex;
+          justify-content: center;
+
+          top: 0;
+          left: 0;
+          right: 0;
+
+          .gr12;
+
+          padding: 5px 0;
+
+          @media (min-width: 768px) {
+
+            justify-content: left;
+            right: 0;
+            left: inherit;
+            top: 30px;
+            .gr5;
+
+            padding: 5px 5px 5px 20px;
+          }
+
+          background: rgb(0, 0, 0);
+          background: -moz-linear-gradient(to right, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, .9) 100%);
+          background: -webkit-linear-gradient(to right, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, .9) 100%);
+          background: linear-gradient(to right, rgba(0, 0, 0, .1) 0%, rgba(0, 0, 0, .9) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+
+          border-bottom: 1px solid #000;
+
+          li {
+
+            a.btn {
+              background-color: transparent;
+              border: none;
+
+              color: @text-color-white;
+            }
+          }
+        }
+
+        // Smart City verticals
+        //
+        &.smart-city-verticals {
+
+          li {
+            display: inline-block;
+
+            a {
+
+              width: 90px;
+              display: inline-block;
+              text-align: center;
+
+              margin: 0 10px 20px;
+
+              @media (min-width: 768px) {
+                width: 110px;
+                margin: 0;
+              }
+
+              @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+                width: 90px;
+              }
+
+              span {
+                &:nth-child(1) {
+                  font-size: 2.1rem;
+                  background: linear-gradient(45deg, #fafafa, #fefefe);
+                  border: 3px solid transparent;
+                  border-radius: 50%;
+                  box-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
+
+                  display: inline-block;
+                  width: 64px;
+                  height: 64px;
+
+                  vertical-align: middle;
+
+                  @media (min-width: 768px) {
+                    width: 80px;
+                    height: 80px;
+                    font-size: 2.8rem;
+                  }
+
+                  @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+                    width: 64px;
+                    height: 64px;
+                    font-size: 2.1rem;
+                  }
+
+                  &:hover {
+
+                    // Governance
+                    //
+                    &[data-icon='a'] {
+                      border-color: @smart-governance;
+                    }
+
+                    // Energy
+                    //
+                    &[data-icon='b'] {
+                      border-color: @smart-energy;
+                    }
+
+                    // Buildings
+                    //
+                    &[data-icon='c'] {
+                      border-color: @smart-building;
+                    }
+
+                    // Mobility
+                    //
+                    &[data-icon='d'] {
+                      border-color: @smart-mobility;
+                    }
+
+                    // Infrastructure
+                    //
+                    &[data-icon='e'] {
+                      border-color: @smart-infrastructure;
+                    }
+
+                    // Technology
+                    //
+                    &[data-icon='f'] {
+                      border-color: @smart-technology;
+                    }
+
+                    // HealthCare
+                    //
+                    &[data-icon='g'] {
+                      border-color: @smart-healthcare;
+                    }
+
+                    // Citizen
+                    //
+                    &[data-icon='h'] {
+                      border-color: @smart-citizen;
+                    }
+                  }
+                }
+
+                &:nth-child(2) {
+                  display: block;
+                  color: @text-color-white;
+                  padding: 5px 0 0;
+                  margin: 0 0 15px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // Icon scroll
+    //
+    .icon-scroll,
+    .icon-scroll:before {
+      position: absolute;
+      left: 50%
+    }
+
+    .icon-scroll {
+      width: 40px;
+      height: 70px;
+      margin-left: -20px;
+      bottom: 5%;
+      margin-top: -35px;
+      box-shadow: inset 0 0 0 1px #fff;
+      border-radius: 25px;
+    }
+
+    .icon-scroll:before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      margin-left: -4px;
+      top: 8px;
+      border-radius: 4px;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-name: scroll;
+    }
+
+    @keyframes scroll {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(46px);
+      }
+    }
+
+    // Partnership
+    //
+    .partnership {
+      width: 210px;
+      margin: 20px auto;
+
+      @media (min-width: 768px) {
+        position: absolute;
+        margin: 0;
+        left: 6%;
+        bottom: 6%;
+      }
+
+      h2 {
+        color: @text-color-white;
+        font-size: 1.25rem;
+      }
+
+      span {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-around;
+
+        img {
+          margin: 5px;
+        }
+      }
+    }
+  }
+
+  // Section
+  //
+  section {
+
+    position: relative;
+
+    .gr11;
+
+    padding: 25px;
+    margin: 50px auto;
+    border-left: @header-border-width solid transparent;
+
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+
+    @media (min-width: 768px) {
+      .gr10;
+
+      min-height: 200px;
+    }
+
+    // Suggestion button
+    //
+    .btn-suggestion {
+
+      .gr12;
+
+      @media (min-width: 768px) {
+        .pull-right;
+        width: auto;
+      }
+    }
+
+    &:after {
+      font-family: smartcityiasi;
+      font-size: 9rem;
+      opacity: .05;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    &[id=governance] {
+      border-color: @smart-governance;
+
+      &:after {
+        content: 'a';
+        color: @smart-governance;
+      }
+
+      // Change button styling
+      //
+      .btn-suggestion {
+        .define-button(@text-color-white, @smart-governance, darken(@smart-governance, 5%));
+      }
+    }
+
+    &[id=energy] {
+      border-color: @smart-energy;
+
+      &:after {
+        content: 'b';
+        color: @smart-energy;
+      }
+
+      // Change button styling
+      //
+      .btn-suggestion {
+        .define-button(@text-color-white, @smart-energy, darken(@smart-energy, 5%));
+      }
+    }
+
+    &[id=buildings] {
+      border-color: @smart-building;
+
+      &:after {
+        content: 'c';
+        color: @smart-building;
+      }
+
+      // Change button styling
+      //
+      .btn-suggestion {
+        .define-button(@text-color-white, @smart-building, darken(@smart-building, 5%));
+      }
+    }
+
+    &[id=mobility] {
+      border-color: @smart-mobility;
+
+      &:after {
+        content: 'd';
+        color: @smart-mobility;
+      }
+
+      // Change button styling
+      //
+      .btn-suggestion {
+        .define-button(@text-color-white, @smart-mobility, darken(@smart-mobility, 5%));
+      }
+    }
+
+    &[id=infrastructure] {
+      border-color: @smart-infrastructure;
+
+      &:after {
+        content: 'e';
+        color: @smart-infrastructure;
+      }
+
+      // Change button styling
+      //
+      .btn-suggestion {
+        .define-button(@text-color-white, @smart-infrastructure, darken(@smart-infrastructure, 5%));
+      }
+    }
+
+    &[id=technology] {
+      border-color: @smart-technology;
+
+      &:after {
+        content: 'f';
+        color: @smart-technology;
+      }
+
+      // Change button styling
+      //
+      .btn-suggestion {
+        .define-button(@text-color-white, @smart-technology, darken(@smart-technology, 5%));
+      }
+    }
+
+    &[id=healthCare] {
+      border-color: @smart-healthcare;
+
+      &:after {
+        content: 'g';
+        color: @smart-healthcare;
+      }
+
+      // Change button styling
+      //
+      .btn-suggestion {
+        .define-button(@text-color-white, @smart-healthcare, darken(@smart-healthcare, 5%));
+      }
+    }
+
+    &[id=citizen] {
+      border-color: @smart-citizen;
+
+      &:after {
+        content: 'h';
+        color: @smart-citizen;
+      }
+
+      // Change button styling
+      //
+      .btn-suggestion {
+        .define-button(@text-color-white, @smart-citizen, darken(@smart-citizen, 5%));
+      }
+    }
+
+    // Section progress
+    //
+    .section-progress {
+
+      @media (min-width: 768px) {
+        display: flex;
+        flex-flow: row nowrap;
+
+        align-items: stretch;
+      }
+    }
+
+    // Section additional
+    //
+    .section-more {
+      margin: 30px 0 0;
+    }
+
+    // Section done
+    //
+    .section-done {
+
+      border: 1px solid #f1f1f1;
+      min-height: 200px;
+
+      @media (min-width: 768px) {
+        .gr6;
+      }
+
+      ul > li {
+
+        line-height: 1.6em;
+
+      }
+
+      & > h5 {
+
+        font-size: 1rem;
+        padding: 8px;
+        text-align: center;
+        line-height: 1.2rem;
+
+        background: @icon-done;
+        color: @text-color-white;
+
+        @media (min-width: 768px) {
+
+          text-align: left;
+
+          &:before {
+
+            content: 'n';
+          }
+        }
+      }
+    }
+
+    // Section todo
+    //
+    .section-todo {
+
+      border: 1px solid #f1f1f1;
+
+      @media (min-width: 768px) {
+        .gr6;
+      }
+
+      & > h5 {
+
+        font-size: 1rem;
+        padding: 8px;
+        text-align: center;
+        line-height: 1.2rem;
+
+        background: @icon-todo;
+        color: @text-color-white;
+
+        @media (min-width: 768px) {
+
+          text-align: left;
+
+          &:before {
+
+            content: 'o';
+          }
+        }
+      }
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      text-align: center;
+      margin: 0 0 .4rem;
+
+      @media (min-width: 768px) {
+        display: inline-block;
+        text-align: left;
+        margin: 0;
+      }
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      padding: 4px 10px;
+      margin: 30px 0 4px;
+      font-weight: 700;
+
+      &:nth-child(1) {
+        margin: 6px 0 4px;
+      }
+    }
+
+    h5 {
+      border-bottom: 1px solid #f1f1f1;
+      margin: 0;
+
+      font-size: 1.1rem;
+      line-height: 2.4rem;
+
+      &:before {
+        display: block;
+        .pull-left;
+
+        font-family: smartcityiasi;
+        font-size: 1rem;
+
+        color: #fff;
+        text-shadow: 0 1px rgba(0, 0, 0, .5);
+
+        padding: 0 15px;
+      }
+    }
+
+    p {
+      padding: 1.5rem 0 0;
+
+      &:nth-child(2) {
+        padding: 0;
+      }
+    }
+
+    ul {
+
+      margin: 10px 30px;
+      list-style: disc;
+
+      // No list style
+      //
+      &.list-style-none {
+        list-style: none;
+        margin: 8px 6px;
+      }
+
+      li {
+        font-size: .9em;
+      }
+    }
+  }
+}
+
+// Footer
+//
+footer {
+
+  background: rgba(0, 0, 0, .8);
+  padding: 20px 0;
+  color: #fff;
+  font-size: .9rem;
+
+  text-align: center;
+
+  p {
+    padding: 0;
+  }
+}
