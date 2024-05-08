@@ -20,5 +20,6 @@
 * Destinația anului 2022 - etapa regională la categoria „City Break” - 28 aprilie 2022
 * Marele Premiu la categoria Excelență în Inovație de Mediu (Salubris SA) - Gala Green Report - 19 ianuarie 2023
 * Medalia de aur la categoria Best Place or Nation Brand, în cadrul Transform Awards Europe 2023 pentru proiectul de branding „Iași – Orașul Creatorilor” - 22 martie 2023
-* Premiul Smart City Industry Awards, categoria Smart Mobility, pentru proiectul: „Sistem inteligent de management integrat al locurilor de parcare în Municipiul Iași” - 30 martie 2023
+* Premiul Smart City Industry Awards, categoria „Smart Mobility”, pentru proiectul: „Sistem inteligent de management integrat al locurilor de parcare în Municipiul Iași” - 30 martie 2023
 * Premiul economiei româno-germane, la categoria „Responsabilitate pentru viitor” (Salubris SA) - cu proiectul „Dezvoltarea durabilă a managementului deșeurilor în contextul economiei circulare în orașul Iași” - 01 februarie 2024
+* Premiul Smart City Industry Awards, categoria „Mobilitate si transport urban”, pentru proiectul „Transport public verde si inteligent – Modernizare Depou Dacia” - 4 aprilie 2024
